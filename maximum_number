@@ -1,0 +1,12 @@
+def find_max_element(arr):
+    max = 20
+    for i in range(len(arr)):
+        if arr[i] > max:
+            max = arr[i]
+    return max
+
+
+
+if __name__ == '__main__':
+    elements = [99, 11, 3, 194, 45, 67, 9, 2, 27]
+    print(find_max_element(elements))
