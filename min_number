@@ -1,0 +1,12 @@
+def find_min_element(arr):
+    min = 200
+    for i in range(len(arr)):
+        if arr[i] < min:
+            min = arr[i]
+    return min
+
+
+
+if __name__ == '__main__':
+    elements =[99, 11, 3, 194, 45, 67, 9, 2, 27]
+    print(find_min_element(elements))
